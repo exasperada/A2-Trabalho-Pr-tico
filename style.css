@@ -21,11 +21,6 @@
 
 @media (max-width: 768px) 
 
-
-* {
-    font-family: Arial, sans-serif;
-}
-
 a {
   text-decoration: none; 
   color: var(--cor-texto);         
@@ -62,12 +57,74 @@ ul {
     background-color: var(--cor-um);    
     display: flex;
     align-items: center;
-    font-size: 28px;
+    font-size: 12px;
     font-family: "varela", sans-serif;
     color: var(--cor-texto)
     bottom: 0%;
     display: absolute;
 
+}
+
+
+
+.contato {
+  position: relative;
+  top: 15px;
+  right: 20px;
+  width: 150px;
+  height: 20px;
+  background-image: url(https://i.pinimg.com/736x/09/1d/0d/091d0d77e00603a7b30daaaa1100ba73.jpg);
+  border-radius: 30px;
+  font-family: "varela", sans-serif;
+  font-size: 14px;
+  color: var(--cor-texto);
+  padding: 7px;
+}
+
+.endereco {
+  position: relative;
+  top: 4px;
+  right: 10px;
+  width: 180px;
+  height: 40px;
+  background-image: url(https://i.pinimg.com/736x/09/1d/0d/091d0d77e00603a7b30daaaa1100ba73.jpg);
+  border-radius: 30px;
+  font-family: "varela", sans-serif;
+  font-size: 14px;
+  color: var(--cor-texto);
+  padding: 7px;
+}
+
+.horario {
+  position: relative;
+  bottom: 15px;
+  right: 0px;
+  width: 160px;
+  background-image: url(https://i.pinimg.com/736x/09/1d/0d/091d0d77e00603a7b30daaaa1100ba73.jpg);
+  border-radius: 30px;
+  font-family: "varela", sans-serif;
+  font-size: 14px;
+  color: var(--cor-texto);
+}
+
+.copyright {
+  position: relative;
+  top: 25px;
+  left: 40px;
+  width: 300px;
+  height: 40px;
+  font-family: "varela", sans-serif;
+  font-size: 14px;
+  color: var(--cor-texto);
+  padding: 15px;
+}
+
+.redes {
+  width: 150px;
+  height: 55px;
+  position: relative;
+  top: 50px;
+  left: 110px;
 }
 
 .banner {

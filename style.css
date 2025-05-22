@@ -1,309 +1,305 @@
 
-.great-vibes-regular {
-  font-family: "Great Vibes", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
 
 .varela-regular {
-  font-family: "Varela", sans-serif;
-  font-weight: 400;
+  font-family: "Varela", sans-serif; /* fonte principal */
+  font-weight: 400; 
   font-style: normal;
 }
 
 
-:root {
+:root { /* cores principais */
     --cor-um: #ffc4c4;
     --cor-texto: #840f0f;
     --cor-fundo: #ffe3e7;
 
 }
 
-@media (max-width: 768px) 
 
-a {
-  text-decoration: none; 
-  color: var(--cor-texto);         
-  font-weight: normal;   
-}
+  nav a { /* class para tirar o sublinhado dos links e adicionar cor/fonte */
+   
+    text-decoration: none;
+  color: var(--cor-texto);
+  font-family: "varela", sans-serif;
 
-.body {
+  }
+  
+
+  .body { /* foto de fundo da página */
     background-image: url(https://i.pinimg.com/736x/09/1d/0d/091d0d77e00603a7b30daaaa1100ba73.jpg);
 }
 
-header {
-    background-color: var(--cor-um);
-    display: flex;
-    align-items: center;
-    font-size: 38px;
-    font-family: "Varela", sans-serif;
-    color: #f00b0d;
-    border-radius: 30px;
-    width: 100%;
+header { /* cabeçalho */
+    background-color: var(--cor-um); /* cor de fundo do cabeçalho */
+    display: flex; /*organiza os elementos em linha */
+    align-items: center; /* centraliza os itens*/
+    font-size: 38px; /* tamanho da fonte */
+    font-family: "Varela", sans-serif; /* estilo da fonte */
+    color: var(--cor-texto); /* cor do texto */
+    border-radius: 30px; /* borda arredondada */
+    width: 100%; /* largura do cabeçalho */
 }
 
 ul {
-    list-style: none;
-    margin: 20px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
-    text-decoration: none;
+    list-style: none; /* remove os marcadores da lista */
+    margin: 20px; /* margem do cabeçalho */
+    padding: 20px; /* espaçamento interno do cabeçalho */
+    display: flex; /* organiza os itens em linha */
+    justify-content: space-around; /* distribui os itens uniformemente */
+    gap: 50px; /* espaçamento entre os itens */
 }
 
 .footer {
-    text-align: center;
-    background-color: var(--cor-um);    
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    font-family: "varela", sans-serif;
-    color: var(--cor-texto)
-    bottom: 0%;
-    display: absolute;
+    text-align: center; /* centraliza o texto */
+    background-color: var(--cor-um);   /* cor de fundo do rodapé */  
+    display: flex; /* organiza os itens em linha */
+    align-items: center; /* centraliza os itens */
+    font-size: 12px; /* tamanho da fonte */
+    font-family: "varela", sans-serif; /* estilo da fonte */
+    color: var(--cor-texto) ; /* cor do texto */
+    bottom: 0%; /* posiciona o rodapé na parte inferior */
+    display: absolute; /* exibe o rodapé em linha */
 
 }
 
 
 
 .contato {
-  position: relative;
-  top: 15px;
-  right: 20px;
-  width: 150px;
-  height: 20px;
+  position: relative; /* posição do elemento */
+  top: 15px; /* distância do topo */
+  right: 20px; /* distância da direita */
+  width: 150px; /* largura do elemento */
+  height: 20px; /* altura do elemento */
   background-image: url(https://i.pinimg.com/736x/09/1d/0d/091d0d77e00603a7b30daaaa1100ba73.jpg);
-  border-radius: 30px;
-  font-family: "varela", sans-serif;
-  font-size: 14px;
-  color: var(--cor-texto);
-  padding: 7px;
+  border-radius: 30px; /* borda arredondada */
+  font-family: "varela", sans-serif; /* estilo da fonte */
+  font-size: 14px; /* tamanho da fonte */
+  color: var(--cor-texto); /* cor do texto */
+  padding: 7px; /* espaçamento interno */
 }
 
 .endereco {
-  position: relative;
-  top: 4px;
-  right: 10px;
-  width: 180px;
-  height: 40px;
+  position: relative; /* posição do elemento */
+  top: 4px; /* distância do topo */
+  right: 10px; /* distância da direita */
+  width: 180px; /* largura do elemento */
+  height: 40px; /* altura do elemento */
   background-image: url(https://i.pinimg.com/736x/09/1d/0d/091d0d77e00603a7b30daaaa1100ba73.jpg);
-  border-radius: 30px;
-  font-family: "varela", sans-serif;
-  font-size: 14px;
-  color: var(--cor-texto);
-  padding: 7px;
+  border-radius: 30px; /* borda arredondada */
+  font-family: "varela", sans-serif; /* estilo da fonte */
+  font-size: 14px; /* tamanho da fonte */
+  color: var(--cor-texto); /* cor do texto */
+  padding: 7px; /* espaçamento interno */
 }
 
 .horario {
-  position: relative;
-  bottom: 15px;
-  right: 0px;
-  width: 160px;
+  position: relative; /* posição do elemento */
+  bottom: 15px; /* distância do topo */
+  right: 0px;   /* distância da direita */
+  width: 160px; /* largura do elemento */
   background-image: url(https://i.pinimg.com/736x/09/1d/0d/091d0d77e00603a7b30daaaa1100ba73.jpg);
-  border-radius: 30px;
-  font-family: "varela", sans-serif;
-  font-size: 14px;
-  color: var(--cor-texto);
+  border-radius: 30px; /* borda arredondada */
+  font-family: "varela", sans-serif; /* estilo da fonte */
+  font-size: 14px; /* tamanho da fonte */
+  color: var(--cor-texto); /* cor do texto */
 }
 
 .copyright {
-  position: relative;
-  top: 25px;
-  left: 40px;
-  width: 300px;
-  height: 40px;
-  font-family: "varela", sans-serif;
-  font-size: 14px;
-  color: var(--cor-texto);
-  padding: 15px;
+  position: relative; /* posição do elemento */
+  top: 25px; /* distância do topo */
+  left: 40px; /* distância da esquerda */
+  width: 300px; /* largura do elemento */
+  height: 40px; /* altura do elemento */
+  font-family: "varela", sans-serif; /* estilo da fonte */
+  font-size: 14px; /* tamanho da fonte */
+  color: var(--cor-texto); /* cor do texto */
+  padding: 15px; /* espaçamento interno */
 }
 
 .redes {
-  width: 150px;
-  height: 55px;
-  position: relative;
-  top: 50px;
-  left: 110px;
+  width: 150px; /* largura do elemento */
+  height: 55px; /* altura do elemento */
+  position: relative; /* posição do elemento */
+  top: 50px; /* distância do topo */
+  left: 110px; /* distância da esquerda */
 }
 
 .banner {
-    width: 1500px;
-    height: 720px;
-    display: flex;
-    justify-content: center;
-   padding-top: 20px;
-   border-radius: 50px;
+    width: 1500px; /* largura do banner */
+    height: 720px; /* altura do banner */
+    display: flex; /* organiza os itens em linha */
+    justify-content: center; /* centraliza os itens */
+   padding-top: 20px; /* espaçamento interno */
+   border-radius: 50px; /* borda arredondada */
 }
 
 .main {
-  align-items: center;                     
+  align-items: center; /* centraliza os itens */                   
 }
 
 .h1 {
 
-    font-size: 48px;
-    color: var(--cor-texto);
-    text-align: left;
-    margin: 30px;
-    padding: 20px;
-    display: inline-block;
-    border: 50px;
-    border-radius: 30px;
-    font-family: "varela", sans-serif;
-    font-weight: bold;
-    background-color: var(--cor-um);
-    margin-left: 100px;
+    font-size: 48px; /* tamanho da fonte */
+    color: var(--cor-texto); /* cor do texto */
+    text-align: left; /* alinha o texto à esquerda */
+    margin: 30px; /* margem do elemento */
+    padding: 20px; /* espaçamento interno */
+    display: inline-block; /* exibe o elemento em linha */
+    border: 50px; /* borda do elemento */ 
+    border-radius: 30px; /* borda arredondada */ 
+    font-family: "varela", sans-serif; /* estilo da fonte */
+    font-weight: bold; /* negrito */ 
+    background-color: var(--cor-um); /* cor de fundo */
+    margin-left: 100px; /* margem esquerda */
 }
 
 
 
 .container {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 40px;
+    display: flex; /* organiza os itens em linha */
+    justify-content: left; /* alinha os itens à esquerda */
+    align-items: center; /* centraliza os itens */
+    gap: 40px; /* espaçamento entre os itens */
 
 }
 
 .p1 {
-    background-color: var(--cor-um);
-    font-size: 38px;
-    color: var(--cor-texto);
-    text-align: left;
-    margin-top: 30px;
-    margin-left: 100px;
-    padding: 20px;
-    display: flex;
-    justify-content: left;
-    border: 50px;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 50%;
-    height: 570px;
-    font-family: "Varela", sans-serif;
-    font-weight: bold;
+    background-color: var(--cor-um); /* cor de fundo */
+    font-size: 38px; /* tamanho da fonte */
+    color: var(--cor-texto); /* cor do texto */
+    text-align: left; /* alinha o texto à esquerda */
+    margin-top: 30px; /* margem superior */
+    margin-left: 100px; /* margem esquerda */
+    padding: 20px; /* espaçamento interno */
+    display: flex; /* exibe o elemento em linha */
+    justify-content: left; /* alinha os itens à esquerda */
+    border: 50px; /* borda do elemento */
+    border-radius: 50px; /* borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* sombra do elemento */
+    width: 50%; /* largura do elemento */
+    height: 570px; /* altura do elemento */
+    font-family: "Varela", sans-serif; /* estilo da fonte */
+    font-weight: bold; /* negrito */
 }
 
 .sorvete {
-    display: flex;
-    width: 500px;
-    height: 620px;
-    border-radius: 50px;
+    display: flex; /* organiza os itens em linha */
+    width: 500px; /* largura do elemento */
+    height: 620px; /* altura do elemento */
+    border-radius: 50px; /* borda arredondada */
    
 }
 
 .banner2 {
- width: 1400px;
-    height: 720px;
-    display: flex;
-    justify-content: center;
-   padding: 50px;
-  border: 40px;   
+ width: 1400px; /* largura do banner */
+    height: 720px; /* altura do banner */
+    display: flex; /* organiza os itens em linha */
+    justify-content: center; /* centraliza os itens */
+   padding: 50px; /* espaçamento interno */
+  border: 40px;  /* borda do banner */
 }
 
 .p2 {
-    background-color: var(--cor-um);
-    font-size: 38px;
-    color: var(--cor-texto);
-    text-align: left;
-    margin-top: 30px;
-    margin-right: 100px;
-    padding: 20px;
-    display: flex;
-    justify-content: left;
-    border: 50px;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 50%;
-    height: 570px;
-    font-family: "Varela", sans-serif;
-    font-weight: bold;
+    background-color: var(--cor-um); /* cor de fundo */
+    font-size: 38px; /* tamanho da fonte */
+    color: var(--cor-texto); /* cor do texto */
+    text-align: left; /* alinha o texto à esquerda */
+    margin-top: 30px; /* margem superior */
+    margin-right: 100px; /* margem direita */
+    padding: 20px; /* espaçamento interno */
+    display: flex; /* exibe o elemento em linha */
+    justify-content: left; /* alinha os itens à esquerda */
+    border: 50px; /* borda do elemento */
+    border-radius: 50px; /* borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* sombra do elemento */
+    width: 50%; /* largura do elemento */
+    height: 570px; /* altura do elemento */
+    font-family: "Varela", sans-serif; /* estilo da fonte */
+    font-weight: bold; /* negrito */
     
 }
 
 .sorvete2 {
-    gap: 40px;
-    width: 670px;
-    height: 620px;
-    border-radius: 50px;
-    margin-left: 100px;
-    margin-right: 20px;
-    margin-bottom: 15px;
+    gap: 40px; /* espaçamento entre os itens */
+    width: 670px; /* largura do elemento */
+    height: 620px; /* altura do elemento */
+    border-radius: 50px; /* borda arredondada */
+    margin-left: 100px; /* margem esquerda */
+    margin-right: 20px; /* margem direita */
+    margin-bottom: 15px; /* margem inferior */
 }
 
 .banner3 {
-    width: 1400px;
-    height: 720px;
-    display: flex;
-    justify-content: center;
-   padding: 50px;
-  border: 40px;   
+    width: 1400px; /* largura do banner */
+    height: 720px; /* altura do banner */
+    display: flex; /* organiza os itens em linha */
+    justify-content: center; /* centraliza os itens */
+   padding: 50px; /* espaçamento interno */
+  border: 40px; /* borda do banner */
 }
 
 .carrossel-fade {
-  position: relative;
-  width: 1436px;
-  height: 668px;
-  overflow: hidden;
-  align-items: center;
-  border-radius: 50px;
-    margin-left: 30px;
-    margin-bottom: 50px;
+  position: relative; /* posição do elemento */
+  width: 1436px; /* largura do elemento */
+  height: 668px; /* altura do elemento */
+  overflow: hidden; /* oculta o conteúdo que ultrapassa os limites do elemento */
+  align-items: center; /* centraliza os itens */
+  border-radius: 50px; /* borda arredondada */
+    margin-left: 30px; /* margem esquerda */
+    margin-bottom: 50px; /* margem inferior */
 }
 
 .slide {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  animation: fade 15s infinite;
+  position: absolute; /* posição do elemento */
+  width: 100%; /* largura do elemento */
+  height: 100%; /* altura do elemento */
+  opacity: 0; /* opacidade inicial */
+  animation: fade 15s infinite; /* animação de fade */
 }
 
-.slide:nth-child(1) { animation-delay: 0s; }
-.slide:nth-child(2) { animation-delay: 5s; }
-.slide:nth-child(3) { animation-delay: 10s; }
+.slide:nth-child(1) { animation-delay: 0s; } /* primeira imagem */
+.slide:nth-child(2) { animation-delay: 5s; } /* segunda imagem */
+.slide:nth-child(3) { animation-delay: 10s; } /* terceira imagem */
 
 @keyframes fade {
-  0%   { opacity: 0; }
-  10%  { opacity: 1; }
-  30%  { opacity: 1; }
-  40%  { opacity: 1; }
-  100% { opacity: 1; }
+  0%   { opacity: 0; } /* opacidade inicial */
+  10%  { opacity: 1; } /* opacidade total */
+  30%  { opacity: 1; } /* opacidade total */
+  40%  { opacity: 1; } /* opacidade total */
+  100% { opacity: 1; } /* opacidade total */
 }
 
 .slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 100%; /* largura da imagem */
+  height: 100%; /* altura da imagem */
+  object-fit: cover; /* ajusta a imagem para cobrir o elemento */
 }
 
 
 .titulosobre {
-    font-size: 48px;
-    color: var(--cor-texto);
-    text-align: left;
-    margin: 20px;
-    padding: 20px;
-    display: inline-block;
-    border: 50px;
-    border-radius: 30px;
-    font-family: "varela", sans-serif;
-    font-weight: bold;
-    background-color: var(--cor-um);
+    font-size: 48px; /* tamanho da fonte */
+    color: var(--cor-texto); /* cor do texto */
+    text-align: left; /* alinha o texto à esquerda */
+    margin: 20px; /* margem do elemento */
+    padding: 20px; /* espaçamento interno */
+    display: inline-block; /* exibe o elemento em linha */
+    border: 50px; /* borda do elemento */
+    border-radius: 30px; /* borda arredondada */
+    font-family: "varela", sans-serif; /* estilo da fonte */
+    font-weight: bold;  /* negrito */
+    background-color: var(--cor-um); /* cor de fundo */
     
 }
 
 .hisp {
-     font-size: 38px;
-    color: var(--cor-texto);
-    text-align: left;
-    margin: 30px;
-    padding: 20px;
-    display: inline-block;
-    border: 50px;
-    border-radius: 30px;
-    font-family: "varela", sans-serif;
-    font-weight: bold;
-    background-color: var(--cor-um);
+     font-size: 38px; /* tamanho da fonte */
+    color: var(--cor-texto); /* cor do texto */
+    text-align: left; /* alinha o texto à esquerda */
+    margin: 30px; /* margem do elemento */
+    padding: 20px; /* espaçamento interno */
+    display: inline-block; /* exibe o elemento em linha */
+    border: 50px; /* borda do elemento */
+    border-radius: 30px; /* borda arredondada */
+    font-family: "varela", sans-serif; /* estilo da fonte */
+    font-weight: bold; /* negrito */
+    background-color: var(--cor-um); /* cor de fundo */
 }
